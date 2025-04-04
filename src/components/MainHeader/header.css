@@ -1,0 +1,36 @@
+/* header.css */
+.main-header {
+    grid-area: MH;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+ 
+
+  }
+  
+  .main-header.light {
+    background-color: white;
+    color: black;
+
+  }
+  
+  .main-header.dark {
+    background-color: #252a48;
+    color: white;
+    border-bottom: 1px solid gray;
+  }
+
+  .profile{
+    display: flex;
+    flex-direction: column;
+   
+
+  }
+
+  .profile h3{
+    margin: 0;
+    padding: 0;
+  }
+  

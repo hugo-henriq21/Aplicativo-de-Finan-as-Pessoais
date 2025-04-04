@@ -1,0 +1,28 @@
+.contentHeader-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.contentHeader-main h1{
+    color: #fff;
+}
+.contentHeader-main h1::after{
+    content: '';
+    display: block;
+    width: 55px;
+    border-bottom: 10px solid var(--line-color, rgb(226, 115, 123));
+}
+
+.controllers{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   
+}
+
+.controllers button{
+    display: flex;
+ 
+   
+}

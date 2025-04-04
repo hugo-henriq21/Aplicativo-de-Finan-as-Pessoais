@@ -1,0 +1,40 @@
+.main-historyFinance{
+    background-color: #313862;
+    list-style: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+}
+.main-historyFinance:hover{
+   opacity: 0.7;
+   transform: translateX(10px);/* Dá o efeito visual de deslizar para a direita*/
+
+}
+
+
+.Tag{
+    position: absolute;
+    width: 10px;
+    height: 60%;
+    background-color: var(--tag-color);
+    left: 0;
+}
+
+.HistoryContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.HistoryContent span{
+    font-size: 22px;
+    font-weight: 500;
+}
+

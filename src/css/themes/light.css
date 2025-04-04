@@ -1,0 +1,12 @@
+/* src/css/temas/light.css */
+:root {
+    --primary: #DCDCDC;
+    --secondary: #FFFFFF;
+    --tertiary: #F5F5F5;
+    --white: #000;
+    --black: #FFF;
+    --gray: #bfbfbf;
+    --success: #03bb85;
+    --info: #3b5998;
+    --warning: #FF6961;
+}

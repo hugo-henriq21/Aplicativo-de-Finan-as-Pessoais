@@ -1,0 +1,37 @@
+
+.main-content {
+    grid-area: CT;
+    padding: 20px;
+    color: white;
+    height: calc(100vh - 70px); /*Calculo para que o cabecalho apareca na rolagem*/
+    overflow-y: scroll;
+  }
+
+  /*Formatação da Barra de Rolagem*/
+  .main-content::-webkit-scrollbar{
+    width: 10px;
+  }
+
+  /*Barrinha de dentro*/
+  .main-content::-webkit-scrollbar-thumb{
+    background-color: var(--scrollbar-thumb-color, #252A48);
+    border-radius: 10px;
+
+  }
+ /*Barrinha de fora*/
+  .main-content::-webkit-scrollbar-track{
+    background-color: #313862;
+
+  }
+
+  
+  .main-content.light {
+    background-color: #d3d3d3; /* Cor de fundo para o tema claro */
+    color: black;
+  }
+  
+  .main-content.dark {
+    background-color: #1b1f38; /* Cor de fundo para o tema escuro */
+    color: white;
+  }
+  

@@ -1,0 +1,57 @@
+/* Aside.css */
+.main-aside {
+    grid-area: AS;
+    padding: 20px;
+    color: white;
+    border-right: 1px solid gray;
+    font-family: 'Roboto';
+  }
+  
+  .main-aside.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .main-aside.dark {
+    background-color: #252a48;
+    color: white;
+  }
+  .main-aside.dark a{
+    color: #F7931B;
+  }
+
+  .main-aside header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .main-aside header .Logoimg{
+    height: 40px;
+    width: 40px;
+  }
+
+  .main-aside nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .main-aside a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 7px 0;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+
+  }
+  .main-aside a svg{
+    font-size: 18px;
+  }
+
+  .main-aside a:hover{
+    opacity:0.7 ;
+
+  }
+ 
+  
