@@ -6,7 +6,6 @@ import Toggle from '../Toggle/Toggle';
 interface HeaderProps {
   className: string;  // Receber a classe como prop
 }
-
 export default function header({ className }: HeaderProps) {
   const emoji = useMemo(()=>{
 

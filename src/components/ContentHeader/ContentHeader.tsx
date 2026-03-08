@@ -8,7 +8,7 @@ interface ContentHeaderProps {
 
 export default function ContentHeader({
   title,
-  lineColor = "rgb(226, 115, 123)", // Cor padrão
+  lineColor = "#F7931B", // Cor padrão
   children,
 }: ContentHeaderProps) {
   return (

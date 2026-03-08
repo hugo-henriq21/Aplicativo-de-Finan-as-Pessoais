@@ -1,0 +1,36 @@
+.main-wallet-box{
+    display: flex;
+    width: 32%;
+    margin: 20px 0px;
+    height: 200px;
+    color: #fff;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+  
+  
+}
+
+.main-wallet-box img{
+    height: 110%;
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    opacity: 40%;
+  
+}
+
+.main-wallet-box .wallet-title{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wallet-title small{
+    font-size: 12px;
+    bottom: 10px;
+    position: absolute;
+
+}

@@ -1,0 +1,23 @@
+.main-messageBox{
+    width: 48%;
+    height: 260px;
+    background-color: #343c73;
+    color: #fff;
+    border-radius: 7px;
+
+    margin: 10px 0;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-messageBox img{
+    width: 35px;
+    margin-left: 7px;
+}
+
+.main-messageBox p{
+    font: 18px;
+}

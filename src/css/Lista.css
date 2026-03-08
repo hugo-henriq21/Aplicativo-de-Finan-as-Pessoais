@@ -23,22 +23,31 @@
     color: white;
     margin: 0 10px;
     transition: opacity 0.3s;
+    opacity: 1;
+    
+
 }
 .filter .tag-filter:hover{
     opacity: 0.7;
 }
 
-.tag-filter-recurrent::after{
-    content: '';
-    display: block;
-    width: 55px;
-    margin: 0 auto;
-    border-bottom: 10px solid #E44C4E;
+
+.tag-actived{
+    opacity: 0.4;
 }
-.tag-filter-eventual::after{
+
+.tag-filter-recurrent.tag-actived::after {
     content: '';
     display: block;
     width: 55px;
     margin: 0 auto;
     border-bottom: 10px solid #4E41F0;
+}
+
+.tag-filter-eventual.tag-actived::after {
+    content: '';
+    display: block;
+    width: 55px;
+    margin: 0 auto;
+    border-bottom: 10px solid #E44C4E;
 }
